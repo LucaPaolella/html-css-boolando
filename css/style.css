@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 200;
 }
 
 .debug .container-button {
@@ -27,26 +27,27 @@ body {
 
 /*debug main*/
 
-.debug main{
+.debug main {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-.debug .fila1{
+.debug .fila1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.debug .fila2{
+.debug .fila2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
 }
+
 /*header*/
 
 .logo {
@@ -54,31 +55,38 @@ body {
     height: 30px;
 }
 
-.button{
+.button {
     color: white;
-    padding-left:10px;
+    padding-left: 10px;
 }
 
-i{
+i {
     color: white;
 }
+
 /* main*/
 
-.foto1{
+.foto1 {
     width: 300px;
     height: 500px;
     position: absolute;
+    z-index: 2;
 }
 
 .foto2{
     width: 300px;
     height: 500px;
     position: relative;
-    
+    z-index: 1;
 }
 
-.container-main{
+.foto1:hover{
+    z-index: 1;
+}
+
+.container-main {
     margin-left: 20px;
     margin-top: 100px;
 }
+
 /*footer*/
