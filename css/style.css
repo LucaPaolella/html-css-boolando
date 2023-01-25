@@ -7,6 +7,7 @@ body {
 
 /*debug*/
 
+/*debug header*/
 .debug nav {
     display: flex;
     background-color: darkorange;
@@ -17,12 +18,35 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .debug .container-button {
     display: flex;
 }
 
+/*debug main*/
+
+.debug main{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.debug .fila1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.debug .fila2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
 /*header*/
 
 .logo {
@@ -40,4 +64,24 @@ i{
 }
 /* main*/
 
+.foto1{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+}
+
+.foto2{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    
+}
+
+.container-main{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.container-img{ 
+}
 /*footer*/
