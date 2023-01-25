@@ -1,0 +1,43 @@
+/*general*/
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*debug*/
+
+.debug nav {
+    display: flex;
+    background-color: darkorange;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.debug .container-button {
+    display: flex;
+}
+
+/*header*/
+
+.logo {
+    width: 100px;
+    height: 30px;
+}
+
+.button{
+    color: white;
+    padding-left:10px;
+}
+
+i{
+    color: white;
+}
+/* main*/
+
+/*footer*/
